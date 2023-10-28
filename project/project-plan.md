@@ -44,8 +44,8 @@ This dataset contains hourly weather data for Istanbul, including various weathe
 ## Work Packages
 
 1. Data Discovery and Preparation [#1](https://github.com/ozandmrz/made-template/issues/1)
-2. Exploratory Data Analysis #2
-3. Development of an Automated Data Pipeline #3
-4. Implementation of Automated Tests #4
-5. Compilation of the Final Report #5
-6. Repository Organization and Presentation #6
+2. Exploratory Data Analysis [#2](https://github.com/ozandmrz/made-template/issues/2)
+3. Development of an Automated Data Pipeline [#3](https://github.com/ozandmrz/made-template/issues/3)
+4. Implementation of Automated Tests [#4](https://github.com/ozandmrz/made-template/issues/4)
+5. Compilation of the Final Report [#5](https://github.com/ozandmrz/made-template/issues/5)
+6. Repository Organization and Presentation [#6](https://github.com/ozandmrz/made-template/issues/6)
