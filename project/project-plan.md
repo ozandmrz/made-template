@@ -43,7 +43,7 @@ This dataset contains hourly weather data for Istanbul, including various weathe
 
 ## Work Packages
 
-1. Data Discovery and Preparation #1
+1. Data Discovery and Preparation [#1]
 2. Exploratory Data Analysis #2
 3. Development of an Automated Data Pipeline #3
 4. Implementation of Automated Tests #4
