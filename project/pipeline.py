@@ -4,11 +4,6 @@ import pandas as pd
 import sqlite3
 
 
-import ssl
-
-ssl._create_default_https_context = ssl._create_unverified_context
-
-
 
 wheather_url= 'https://archive-api.open-meteo.com/v1/archive?latitude=41.01&longitude=28.95&start_date=2022-10-01&end_date=2023-09-30&hourly=temperature_2m,relativehumidity_2m,dewpoint_2m,apparent_temperature,precipitation,rain,snowfall,snow_depth,windspeed_10m,windspeed_100m&timezone=Europe%2FMoscow&format=csv'
 
