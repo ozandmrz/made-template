@@ -26,7 +26,7 @@ pipeline TrainPipeline {
 		delimiter: ";";
 	}
 
-    block SingleColumnDeleter oftype ColumnDeleter {delete: ["Status"];}
+    block SingleColumnDeleter oftype ColumnDeleter {delete: [column J];}
 
 	block DataTableInterpreter oftype TableInterpreter {
         header: true;
