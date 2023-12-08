@@ -10,6 +10,7 @@ def check_table_columns(table_name, expected_columns):
     unexpected_columns = set(table_info['name']) - set(expected_columns)
     missing_columns = set(expected_columns) - set(table_info['name'])
 
+    
     error_message = ""
     if unexpected_columns or missing_columns:
         error_message += f"Columns mismatch in '{table_name}':\n"
