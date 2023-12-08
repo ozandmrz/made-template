@@ -1,7 +1,5 @@
 name: CI Test
 
-name: CI Test
-
 on:
   push:
     branches:
@@ -25,6 +23,7 @@ jobs:
         
     - name: Print GITHUB_WORKSPACE
       run: echo ${GITHUB_WORKSPACE}
+      
       
     # Run test.sh
     - name: Project Test
