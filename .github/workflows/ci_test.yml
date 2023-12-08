@@ -21,14 +21,9 @@ jobs:
       with:
         python-version: 3.11
         
-    # Install dependencies
-    - name: Install dependencies
+    - name: Install pandas
       run: |
-        cd project
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt  # Eğer requirements.txt dosyanız varsa
-
-      
+        python -m pip install pandas
       
     # Run test.sh
     - name: Project Test
