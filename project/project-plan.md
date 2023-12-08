@@ -8,6 +8,7 @@ Project for Analyzing Public Transportation and Traffic Linked to Weather Condit
 
 1. How do weather variations differ in the relationship between traffic density and public transportation usage in Istanbul?
 
+
 ## Description
 
 Istanbul, with its 16 million residents, faces major transportation challenges due to its dense population, especially during peak hours. The city, separated by the Bosphorus, depends on a limited range of transportation options, including three bridges, one underwater tunnel, a subway system, and sea transport. However, when there's a sudden high demand for a specific option, like everyone trying to use their own cars to cross the bridges, it can lead to transportation problems.
