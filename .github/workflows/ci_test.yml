@@ -15,6 +15,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
       
+    - name: Set Working Directory
+      run: cd project
     # Install python
     - name: Set up Python 3.11
       uses: actions/setup-python@v4
@@ -23,5 +25,4 @@ jobs:
         
     # Run test.sh
     - name: Project Test
-      run: |
-        ./project/tests.sh
+      run: ./tests.sh
