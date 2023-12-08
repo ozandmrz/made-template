@@ -14,15 +14,18 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-      
-    - name: Set Working Directory
-      run: cd project
+
     # Install python
     - name: Set up Python 3.11
       uses: actions/setup-python@v4
       with:
         python-version: 3.11
         
+    - name: Print GITHUB_WORKSPACE
+      run: echo ${GITHUB_WORKSPACE}
+      working-directory: $GITHUB_WORKSPACE/tmp
+      
     # Run test.sh
     - name: Project Test
-      run: ./tests.sh
+      run: |
+        ./project/tests.sh
