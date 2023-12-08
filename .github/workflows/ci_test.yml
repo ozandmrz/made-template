@@ -21,8 +21,7 @@ jobs:
       with:
         python-version: 3.11
         
-    - name: Print GITHUB_WORKSPACE
-      run: echo ${GITHUB_WORKSPACE}
+
       
       
     # Run test.sh
