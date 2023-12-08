@@ -4,12 +4,9 @@ on:
   push:
     branches:
     - main
-    paths:
-    - project/**
-    
-permissions:
-  contents: read
-  
+  paths:
+    - project/**  
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,7 +20,8 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: 3.11
-        
+
+    # Install pandas
     - name: Install pandas
       run: |
         python -m pip install pandas
@@ -31,5 +29,6 @@ jobs:
     # Run test.sh
     - name: Project Test
       run: |
-        cd project  
+        cd project
+        chmod +x tests.sh  
         ./tests.sh
