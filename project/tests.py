@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 def check_table_columns(table_name, expected_columns):
-    con = sqlite3.connect("./data/data.sqlite")
+    con = sqlite3.connect("../data/data.sqlite")
 
     query = f"PRAGMA table_info({table_name});"
     table_info = pd.read_sql_query(query, con)
@@ -26,7 +26,7 @@ def check_table_columns(table_name, expected_columns):
 
 
 def test_table_data(table_name, primary_key_column):
-    con = sqlite3.connect("./data/data.sqlite")
+    con = sqlite3.connect("../data/data.sqlite")
 
     query = f"SELECT * FROM {table_name} LIMIT 5;"
     table_data = pd.read_sql_query(query, con)
