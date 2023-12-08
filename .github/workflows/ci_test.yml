@@ -23,7 +23,7 @@ jobs:
         
     - name: Print GITHUB_WORKSPACE
       run: echo ${GITHUB_WORKSPACE}
-      working-directory: $GITHUB_WORKSPACE/tmp
+      
       
     # Run test.sh
     - name: Project Test
