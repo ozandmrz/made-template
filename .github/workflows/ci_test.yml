@@ -6,7 +6,9 @@ on:
     - main
     paths:
     - project/**
-
+    
+permissions:
+  contents: read
   
 jobs:
   build:
@@ -24,10 +26,10 @@ jobs:
         
     - name: Install pandas
       run: |
-
-    - name: github_workspace
-      run: echo ${GITHUB_WORKSPACE}
-       
+        python -m pip install pandas
+      
+    # Run test.sh
     - name: Project Test
       run: |
-        ./project/tests.sh
+        cd project  
+        ./tests.sh
