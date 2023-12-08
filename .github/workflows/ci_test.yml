@@ -31,6 +31,5 @@ jobs:
     # Run test.sh
     - name: Project Test
       run: |
-        cd project  
-        chmod +x tests.sh
-        ./tests.sh
+        cd $GITHUB_WORKSPACE  
+        ./project/tests.sh
