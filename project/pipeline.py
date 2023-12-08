@@ -6,6 +6,7 @@ import sqlite3
 
 wheather_url= 'https://archive-api.open-meteo.com/v1/archive?latitude=41.01&longitude=28.95&start_date=2022-10-01&end_date=2023-09-30&hourly=temperature_2m,relativehumidity_2m,dewpoint_2m,apparent_temperature,precipitation,rain,snowfall,snow_depth,windspeed_10m,windspeed_100m&timezone=Europe%2FMoscow&format=csv'
 
+
 traffic_density_urls = {
     'oct_22': 'https://data.ibb.gov.tr/en/dataset/3ee6d744-5da2-40c8-9cd6-0e3e41f1928f/resource/72183a60-d47f-4dc9-b1dc-fced0649dcf5/download/traffic_density_202210.csv',
     'nov_22': 'https://data.ibb.gov.tr/en/dataset/3ee6d744-5da2-40c8-9cd6-0e3e41f1928f/resource/7f463362-a580-41d9-a86a-a542818e7542/download/traffic_density_202211.csv',
