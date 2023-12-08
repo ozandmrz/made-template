@@ -1,11 +1,13 @@
 name: CI Test
 
+name: CI Test
+
 on:
   push:
     branches:
     - main
-  paths:
-    - 'project/**'
+    paths:
+    - project/**
 
 jobs:
   build:
