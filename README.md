@@ -9,5 +9,5 @@ The project covers end-to-end processes, including creating a pipeline, data man
 ## Final Report and Presentation
 
 - [**View the Final Report**](https://github.com/ozandmrz/made-template/blob/main/project/report.ipynb)
-- [**Presentation Slides**](https://github.com/ozandmrz/made-template/blob/main/project/presentation.pdf)
+- [**Presentation Slides**](https://github.com/ozandmrz/made-template/blob/main/project/slides.pdf)
 - [**Presentation Video**](https://github.com/ozandmrz/made-template/blob/main/project/presentation_video.mp4)
